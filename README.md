@@ -1,21 +1,18 @@
 Live Demo:https://renukumar5659.github.io/codeAlpha_image-gallery/
-# 🌐 Personal Portfolio Website
+# 🖼️ Image Gallery
 
-A modern and responsive **Personal Portfolio Website** built using **HTML, CSS, and JavaScript**. This portfolio showcases my skills, projects, education, resume, and contact information with a clean and user-friendly interface.
+A responsive and interactive **Image Gallery** built using **HTML, CSS, and JavaScript**. This project showcases a clean gallery layout with smooth hover effects and a modern user interface.
 
 ---
 
-## 🚀 Features
+## 📌 Features
 
-- 👨‍💻 Professional Hero Section
-- 📖 About Me
-- 🎓 Education Details
-- 💡 Technical Skills
-- 📂 Projects Showcase
-- 📄 Resume Download
-- 📞 Contact Form
-- 📱 Fully Responsive Design
-- ✨ Smooth Animations & Hover Effects
+- 📷 Responsive Image Gallery
+- ✨ Hover Animation Effects
+- 🔍 Clickable Images
+- 📱 Mobile-Friendly Design
+- 🎨 Modern UI
+- ⚡ Fast and Lightweight
 
 ---
 
@@ -24,58 +21,53 @@ A modern and responsive **Personal Portfolio Website** built using **HTML, CSS, 
 - HTML5
 - CSS3
 - JavaScript
-- Font Awesome
-- Google Fonts
 
 ---
 
 ## 📂 Project Structure
 
 ```
-CodeAlpha-Portfolio/
+codeAlpha_image-gallery/
 │── index.html
 │── style.css
 │── script.js
-│── profile.jpg
-│── AI crop image.jpg
-│── project.jpg
-│── project-3.jpg
-│── renu_kumar resume (1).pdf
+│── image gallery.png
 ```
 
 ---
 
 ## 🚀 How to Run
 
-1. Clone the repository
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/renukumar5659/CodeAlpha-Portfolio.git
+git clone https://github.com/renukumar5659/codeAlpha_image-gallery.git
 ```
 
 2. Open the project folder.
 
-3. Open **index.html** in your browser.
+3. Run `index.html` in your browser.
 
 OR
 
-Run the project using **VS Code Live Server**.
+Open the project in **Visual Studio Code** and use the **Live Server** extension.
 
 ---
 
-## 📸 Screenshot
+## 📸 Project Screenshot
 
-(Add a screenshot of your portfolio homepage here.)
+![Image Gallery](image%20gallery.png)
 
 ---
 
 ## 🌟 Future Improvements
 
-- 🌙 Dark/Light Mode
-- 📨 Functional Contact Form
-- 🎬 More Animations
-- 📊 Skill Progress Bars
-- 🌐 Project Live Demo Links
+- Lightbox Image Preview
+- Image Categories
+- Search & Filter
+- Slideshow Mode
+- Image Zoom
+- Dark/Light Theme
 
 ---
 
@@ -94,4 +86,4 @@ This project is created for educational and learning purposes.
 
 ---
 
-⭐ If you like this project, don't forget to **Star ⭐** the repository.
+⭐ If you found this project useful, please consider giving it a **Star** on GitHub!
