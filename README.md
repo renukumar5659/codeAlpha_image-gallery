@@ -1,19 +1,21 @@
-Live Demo :
-https://renukumar5659.github.io/codeAlpha_image-gallery/
-# 🖼️ Image Gallery
+Live Demo:https://renukumar5659.github.io/codeAlpha_image-gallery/
+# 🌐 Personal Portfolio Website
 
-A responsive and interactive **Image Gallery** built using **HTML, CSS, and JavaScript**. This project showcases a clean gallery layout with smooth hover effects and a modern user interface.
+A modern and responsive **Personal Portfolio Website** built using **HTML, CSS, and JavaScript**. This portfolio showcases my skills, projects, education, resume, and contact information with a clean and user-friendly interface.
 
 ---
 
-## 📌 Features
+## 🚀 Features
 
-- 📷 Responsive Image Gallery
-- ✨ Hover Animation Effects
-- 🔍 Clickable Images
-- 📱 Mobile-Friendly Design
-- 🎨 Modern UI
-- ⚡ Fast and Lightweight
+- 👨‍💻 Professional Hero Section
+- 📖 About Me
+- 🎓 Education Details
+- 💡 Technical Skills
+- 📂 Projects Showcase
+- 📄 Resume Download
+- 📞 Contact Form
+- 📱 Fully Responsive Design
+- ✨ Smooth Animations & Hover Effects
 
 ---
 
@@ -22,53 +24,58 @@ A responsive and interactive **Image Gallery** built using **HTML, CSS, and Java
 - HTML5
 - CSS3
 - JavaScript
+- Font Awesome
+- Google Fonts
 
 ---
 
 ## 📂 Project Structure
 
 ```
-codeAlpha_image-gallery/
+CodeAlpha-Portfolio/
 │── index.html
 │── style.css
 │── script.js
-│── image gallery.png
+│── profile.jpg
+│── AI crop image.jpg
+│── project.jpg
+│── project-3.jpg
+│── renu_kumar resume (1).pdf
 ```
 
 ---
 
 ## 🚀 How to Run
 
-1. Clone the repository:
+1. Clone the repository
 
 ```bash
-git clone https://github.com/renukumar5659/codeAlpha_image-gallery.git
+git clone https://github.com/renukumar5659/CodeAlpha-Portfolio.git
 ```
 
 2. Open the project folder.
 
-3. Run `index.html` in your browser.
+3. Open **index.html** in your browser.
 
 OR
 
-Open the project in **Visual Studio Code** and use the **Live Server** extension.
+Run the project using **VS Code Live Server**.
 
 ---
 
-## 📸 Project Screenshot
+## 📸 Screenshot
 
-![Image Gallery](image%20gallery.png)
+(Add a screenshot of your portfolio homepage here.)
 
 ---
 
 ## 🌟 Future Improvements
 
-- Lightbox Image Preview
-- Image Categories
-- Search & Filter
-- Slideshow Mode
-- Image Zoom
-- Dark/Light Theme
+- 🌙 Dark/Light Mode
+- 📨 Functional Contact Form
+- 🎬 More Animations
+- 📊 Skill Progress Bars
+- 🌐 Project Live Demo Links
 
 ---
 
@@ -87,4 +94,4 @@ This project is created for educational and learning purposes.
 
 ---
 
-⭐ If you found this project useful, please consider giving it a **Star** on GitHub!
+⭐ If you like this project, don't forget to **Star ⭐** the repository.
