@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==========================
+         PRELOADER
+    ========================== -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- ==========================
+         HEADER
+    ========================== -->
+    <header>
+        <h1>Responsive Image Gallery</h1>
+
+        <button id="themeToggle">
+            🌙 Dark Mode
+        </button>
+    </header>
+
+    <!-- ==========================
+         SEARCH BAR
+    ========================== -->
+    <section class="search-section">
+        <input
+            type="text"
+            id="searchBox"
+            placeholder="Search images...">
+    </section>
+
+    <p id="noResults"
+        style="display:none; text-align:center; color:red; font-size:18px; margin-top:20px;">
+        No images found.
+    </p>
+
+    <!-- ==========================
+         FILTER BUTTONS
+    ========================== -->
+    <section class="filter-buttons">
+
+        <button class="active" data-filter="all">All</button>
+
+        <button data-filter="nature">Nature</button>
+
+        <button data-filter="city">City</button>
+
+        <button data-filter="animals">Animals</button>
+
+    </section>
+
+    <!-- ==========================
+         IMAGE GALLERY
+    ========================== -->
+    <section class="gallery">
+
+        <!-- Nature -->
+        <div class="image nature">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop"
+                alt="Beautiful Nature">
+            <div class="caption">Beautiful Nature</div>
+        </div>
+
+        <div class="image nature">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=300&fit=crop"
+                alt="Green Forest">
+            <div class="caption">Green Forest</div>
+        </div>
+
+        <div class="image nature">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&h=300&fit=crop"
+                alt="Mountain View">
+            <div class="caption">Mountain View</div>
+        </div>
+
+        <!-- City -->
+        <div class="image city">
+            <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop"
+                alt="Modern City">
+            <div class="caption">Modern City</div>
+        </div>
+
+        <div class="image city">
+            <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&h=300&fit=crop"
+                alt="Night Lights">
+            <div class="caption">Night Lights</div>
+        </div>
+
+        <div class="image city">
+            <img src="https://images.unsplash.com/photo-1514565131-fce0801e5785?w=400&h=300&fit=crop"
+                alt="Skyline">
+            <div class="caption">Skyline</div>
+        </div>
+
+        <!-- Animals -->
+        <div class="image animals">
+            <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=300&fit=crop"
+                alt="Cute Puppy">
+            <div class="caption">Cute Puppy</div>
+        </div>
+
+        <div class="image animals">
+            <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=400&h=300&fit=crop"
+                alt="Wild Tiger">
+            <div class="caption">Wild Tiger</div>
+        </div>
+
+        <div class="image animals">
+            <img src="https://images.unsplash.com/photo-1444464666168-49d633b86797?w=400&h=300&fit=crop"
+                alt="Colorful Bird">
+            <div class="caption">Colorful Bird</div>
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         IMAGE COUNTER
+    ========================== -->
+    <div id="imageCounter">
+        1 / 9
+    </div>
+
+    <!-- ==========================
+         LIGHTBOX
+    ========================== -->
+    <div class="lightbox">
+
+        <span class="close">&times;</span>
+
+        <button class="prev">&#10094;</button>
+
+        <img class="lightbox-image" src="" alt="">
+
+        <button class="next">&#10095;</button>
+
+        <a id="downloadBtn" download>
+            <button type="button">
+                Download Image
+            </button>
+        </a>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
