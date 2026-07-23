@@ -1,3 +1,5 @@
+Live Demo :
+https://renukumar5659.github.io/codeAlpha_image-gallery/
 # 🖼️ Image Gallery
 
 A responsive and interactive **Image Gallery** built using **HTML, CSS, and JavaScript**. This project showcases a clean gallery layout with smooth hover effects and a modern user interface.
